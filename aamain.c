@@ -32,9 +32,9 @@ int main(int argc, char *argv[])
 		
 		char *found = substringSearchAA(target, lines, lineCount);
 		if (found)
-			printf("Found: %s\n", found);
+			printf("Found: %s\nTry another word or type DONE to exit!\n", found);
 		else
-			printf("Not found!\n");
+			printf("Not found!\nTry another word or type DONE to exit!\n");
 	}
 
     freeAA(lines, lineCount);
